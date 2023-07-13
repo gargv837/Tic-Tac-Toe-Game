@@ -81,8 +81,6 @@ li span {
   bottom: 15px;
 }
 
-/* Canvas Drawing */
-
 #myCanvas {
   width: 330px;
   height: 330px;
@@ -93,7 +91,6 @@ li span {
   opacity: 0;
 }
 
-/* Player/Computer prompt */
 .player-one-turn {
   background: rgba(0,200,200,1);
   left: 15px;
@@ -164,7 +161,6 @@ li span {
   left: 161px;
 }
 
-/* reset button */
 .hard-reset {
   position: absolute;
   top: 5px;
@@ -188,7 +184,6 @@ li span {
   outline: none;
 }
 
-/*  Result Feedback */
 span.rotate {
   color: rgba(0,200,200,1);
 }
@@ -224,10 +219,6 @@ i.win {
   font-family: 'Architects Daughter', sans-serif;
 }
 
-/*============================================
-          Game Starter
-============================================*/
-
 .game-choice,
 .game-starter {
   background: rgba(40,40,40,1)
@@ -247,7 +238,6 @@ i.win {
   text-align: center;
   font-family: 'Architects Daughter', Helvetica, sans-serif;
   z-index: 1500;
-/*  display: none;*/
 }
 
 .game-starter {
@@ -314,9 +304,6 @@ button {
   cursor: pointer;
 }
 
-/*============================
-    Win/Lose animation 
-==============================*/
 .rotate {
   -webkit-animation: rotating 2s linear infinite;
   -moz-animation: rotating 2s linear infinite;
@@ -325,7 +312,7 @@ button {
   animation: rotating 2s linear infinite;
 }
 
-@-webkit-keyframes rotating /* Safari and Chrome */ {
+@-webkit-keyframes rotating {
   from {
     -ms-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
